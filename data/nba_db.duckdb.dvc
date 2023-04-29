@@ -1,0 +1,4 @@
+outs:
+- md5: fe940aef381e08ff4f7acbb6b5849472
+  size: 61091840
+  path: nba_db.duckdb

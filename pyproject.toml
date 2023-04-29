@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nba-data-scrapper"
+version = "0.1.0"
+description = ""
+authors = ["Silas Genário <sg.lopes26@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nba_data_scrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+duckdb = "^0.7.1"
+dvc = "^2.55.0"
+dvc-gdrive = "^2.19.2"
+prefect = "^2.10.6"
+nba-api = "^1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
